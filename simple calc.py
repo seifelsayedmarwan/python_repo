@@ -1,8 +1,9 @@
 import sys
+import termcolor
 #A simple calculator that performs four mathematical operations, 
 # which are addition, subtraction, multiplication and division, 
 # according to the user's choice. It works on two numbers only, according to the user's choice.
-print("Hello")
+termcolor.cprint("Hello", "green")
 num_1 = float(input("Enter the first number:\t"))
 arithmetic_operation = input("What arithmetic operation do you want?(Just write the sign):\t")
 num_2 = float(input("Enter the second number:\t"))
