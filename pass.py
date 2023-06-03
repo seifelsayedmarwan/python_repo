@@ -11,9 +11,9 @@ def create_password(length):
     return password
 
 while True:
-    pass_length = int(input("Enter password length: "))
+    pass_length = int(input("Enter password length:\t"))
     print(create_password(pass_length))
-    go_back = input("Type back to back first or press enter to exit: ")
+    go_back = input("Type back to back first or press enter to exit:\t")
     if go_back.lower() == "back":
      continue
     else:
